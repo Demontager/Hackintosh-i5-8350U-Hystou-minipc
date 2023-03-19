@@ -20,6 +20,12 @@ Working Hackintosh configuration running MacOS Ventura
 
 ![Снимок экрана 2023-03-19 в 15 12 37](https://user-images.githubusercontent.com/7040503/226187768-bd6f46d5-e6a8-47f1-a3f8-490c29302371.png)
 
+It is important to set DVMT Pre-Allocated RAM to 32MB otherwise setting to any other value brakes GPU acceleration in webrowsers
+![IMG_0117](https://user-images.githubusercontent.com/7040503/226189005-2f136cf9-7271-495f-bf43-a81fddd574cc.jpg)
+
+BCM94360CS2 is native Apple wifi-bt adapter installed in mini-pci slot via adapter, no need any kexts.
+![Screenshot 2023-03-19 at 18 13 03](https://user-images.githubusercontent.com/7040503/226189200-d0c91428-e42b-4012-a218-3467c165b85c.png)
+
 
 ## Tools used:
 - [Opencore](https://dortania.github.io/OpenCore-Install-Guide/) 
@@ -33,3 +39,6 @@ Working Hackintosh configuration running MacOS Ventura
 - [Custom SSDT's with SSDTTime](https://www.tonymacx86.com/threads/custom-ssdts-using-corpnewts-ssdttime.318976/)
 - [Making own USB port map](https://www.tonymacx86.com/threads/the-new-beginners-guide-to-usb-port-configuration.286553/#post-2029768)
 - [How to map your USB Ports on macOS](https://elitemacx86.com/threads/how-to-map-your-usb-ports-on-macos.581/)
+
+## Benchmarks:
+![Screenshot 2023-03-19 at 17 29 59](https://user-images.githubusercontent.com/7040503/226189279-98def08e-d65b-4cb8-a0a7-33e58690e759.png)
