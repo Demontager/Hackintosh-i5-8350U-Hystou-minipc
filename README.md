@@ -10,7 +10,7 @@ Working Hackintosh configuration running MacOS Ventura
 - Realtek ALC892 (0x0892)
 - WIFI/BT: BCM94360CS2
 - SMIBIOS MacBookPro15,2
-- OpenCore 0.8.4 RELEASE
+- OpenCore 0.9.0 RELEASE
 
 
 ![Screenshot 2023-03-19 at 17 25 05](https://user-images.githubusercontent.com/7040503/226187965-38c13f0b-cc16-4501-8c70-c0f0ca8054c3.png)
