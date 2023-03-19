@@ -19,3 +19,17 @@ Working Hackintosh configuration running MacOS Ventura
 ![Снимок экрана 2023-03-19 в 15 12 05](https://user-images.githubusercontent.com/7040503/226187762-b3aebebe-e232-4336-888a-23250aa2ff6e.png)
 
 ![Снимок экрана 2023-03-19 в 15 12 37](https://user-images.githubusercontent.com/7040503/226187768-bd6f46d5-e6a8-47f1-a3f8-490c29302371.png)
+
+
+## Tools used:
+- [Opencore](https://dortania.github.io/OpenCore-Install-Guide/) 
+- [ProperTree](https://github.com/corpnewt/ProperTree)
+- [OpenCore Configurator](https://mackie100projects.altervista.org/download-opencore-configurator/)
+- [Hackintool](https://github.com/headkaze/Hackintool)
+- [SSDTTime](https://github.com/corpnewt/SSDTTime)
+- [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
+
+## Guides:
+- [Custom SSDT's with SSDTTime](https://www.tonymacx86.com/threads/custom-ssdts-using-corpnewts-ssdttime.318976/)
+- [Making own USB port map](https://www.tonymacx86.com/threads/the-new-beginners-guide-to-usb-port-configuration.286553/#post-2029768)
+- [How to map your USB Ports on macOS](https://elitemacx86.com/threads/how-to-map-your-usb-ports-on-macos.581/)
