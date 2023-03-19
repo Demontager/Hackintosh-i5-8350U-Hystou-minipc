@@ -2,14 +2,14 @@
 
 Working Hackintosh configuration running MacOS Ventura
 
-- Motherboard: Hystou
+- Motherboard: Hystou unknown model
 - CPU: Intel(R) Core(TM) i5-8350U CPU @ 1.70GHz  
 - RAM: 32GB 2x9905630-031.A00G/16GX Kingston 2400Mhz DDR4
 - Storage: Samsung 970 EVO M.2 512GB  
 - iGPU: Intel UHD 620  
 - Realtek ALC892 (0x0892)
 - WIFI/BT: BCM94360CS2
-- SMIBIOS MacBookPro15,2
+- SMIBIOS: MacBookPro15,2
 - OpenCore 0.9.0 RELEASE
 
 
@@ -20,10 +20,21 @@ Working Hackintosh configuration running MacOS Ventura
 
 ![Снимок экрана 2023-03-19 в 15 12 37](https://user-images.githubusercontent.com/7040503/226187768-bd6f46d5-e6a8-47f1-a3f8-490c29302371.png)
 
-It is important to set DVMT Pre-Allocated RAM to 32MB otherwise setting to any other value brakes GPU acceleration in webrowsers
-![IMG_0117](https://user-images.githubusercontent.com/7040503/226189005-2f136cf9-7271-495f-bf43-a81fddd574cc.jpg)
+## Tested and found working:
+- Boot into MacOS 
+- HDMI output
+- Internal Audio Realtek ALC892
+- Sleep Wake up from bluetooth mouse or keyboard
+- iGPU hardware acceleration
+- WIFI and Bluetooth 
+- Internal Gigabit Network Card RTL8111/8168/8411
+- Airdrop
 
-BCM94360CS2 is native Apple wifi-bt adapter installed in mini-pci slot via adapter, no need any kexts.
+It is important to set DVMT Pre-Allocated RAM to 32MB otherwise setting to any other value brakes GPU acceleration in webrowsers
+![IMG_0118](https://user-images.githubusercontent.com/7040503/226189390-fa0d1cf5-791e-4918-ad46-3930f7c6eed9.jpg)
+
+
+BCM94360CS2 is native Apple wifi-bt adapter installed in mini-pci slot via adapter, no need additional kexts.
 ![Screenshot 2023-03-19 at 18 13 03](https://user-images.githubusercontent.com/7040503/226189200-d0c91428-e42b-4012-a218-3467c165b85c.png)
 
 
